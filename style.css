@@ -1,0 +1,448 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #f1f2f7;
+}
+
+/* -----------------Buttons---------------- */
+.btn {
+    padding: 8px 15px;
+    font-size: 13px;
+}
+.btn-success {
+    background-color: #5db75d;
+    border-color: #5db75d;
+}
+
+
+/* ----------------Carousel---------------- */
+.carousel-indicators {
+    justify-content: flex-start;
+    margin-bottom: 0;
+    margin-left: 0;
+    bottom: 10%;
+    left: 8%;
+}
+.carousel-indicators li {
+    width: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+    opacity: 1;
+}
+.carousel-indicators li.active {
+    background-color: #3f4047;
+}
+
+/* ----Slides content---- */
+.carousel-content {
+    max-width: 350px;
+    color: #fff;
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+.slide-two {
+    max-width: 430px;
+}
+.slide-three {
+    max-width: 440px;
+}
+.slide-five {
+    max-width: 440px;
+}
+.carousel-subtitle {
+    font-size: 30px;
+    line-height: 1.4;
+}
+.carousel-title {
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 1.2;
+}
+.carousel-text {
+    margin-bottom: 22px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.carousel-control {
+    display: flex;
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+    z-index: 1;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 36px;
+    height: 36px;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: #fff;
+    opacity: 1;
+    border-radius: 2px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.carousel-control-prev svg, .carousel-control-next svg {
+    color: #aaa;
+}
+.carousel-control-prev svg {
+    margin-right: 1px;
+}
+.carousel-control-next svg {
+    margin-left: 3px;
+}
+
+
+
+/* -----------------Banners-----------------*/
+.banners {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    position: relative;
+}
+.row .col-lg-12 {
+    flex: none;
+    height: 50%;
+}
+.banner {
+    height: 100%;
+    position: relative;
+}
+.banner h4 {
+    width: 230px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    z-index: 1;
+}
+.banner a {
+    position: absolute;
+    bottom: 15%;
+    left: 8%;
+}
+.banner-go {
+    background-color: #5db75d;
+}
+.banner-read {
+    background-color: #4082bc;
+}
+
+/* ----Banner buttons---- */
+.btn-go {
+    color: #fff;
+    border-color: #96d996;
+}
+.btn-read {
+    color: #fff;
+    border-color: #69a2d4;
+}
+
+
+
+/* -------------------Links---------------- */
+.links {
+    display: flex;
+}
+.links-item {
+    display: block;
+    flex: 1 1 0;
+    background-color: #fff;
+    border-right: 1px solid #f1f2f7;
+    text-decoration: none;
+    position: relative;
+}
+.links-item:hover h5 {
+    color: #5db75d;
+}
+.links-item:last-child {
+    border-right: none;
+}
+.links-item img {
+    display: block;
+    margin: 0 auto 20px;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+}
+.links-item h5 {
+    width: 120px;
+    margin: 0 auto;
+    padding: 90px 0 40px;
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    transition: color .1s linear;
+}
+
+
+/* -----------------Section---------------- */
+.section-inner {
+    padding: 40px 30px;
+    color: #000;
+    background-color: #fff;
+}
+.section-title {
+    margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.section-text {
+    margin-bottom: 22px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+/* ------------------Charts---------------- */
+.charts-inner {
+    box-shadow: 0px 0px 12px 0px rgba(34, 60, 80, 0.1);
+}
+.charts-item {
+    display: flex;
+    justify-content: center;
+}
+.charts-content {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #000;
+}
+.charts-item:hover h5 {
+    color: #5db75d;
+}
+.charts-item h5 {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 6px;
+    font-size: 14px;
+    transition: color .1s linear;
+}
+
+
+/* ------------------Details----------------- */
+.details {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5db75d;
+   transition: all .1s linear;
+}
+.details span {
+    font-size: 14px;
+    border-bottom: 1px solid #96d996;
+}
+.details svg {
+    margin-top: 3px;
+}
+.details:hover {
+    color: #008000;
+    border-color: #5db75d;
+}
+
+
+/* -------------------Guide----------------- */
+.guide-item {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.guide-content {
+    width: 190px;
+    position: absolute;
+    top: 10%;
+    left: 17%;
+}
+.guide-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.guide-content h5 {
+    font-size: 16px;
+}
+
+
+/*--------------------Descript--------------- */
+.descript-title {
+    width: 260px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.descript-text {
+    font-size: 14px;
+    color: #929292;
+}
+
+
+
+
+@media (max-width:1399.98px) {
+    /* ------------------Guide---------------- */
+    .guide-content {
+        left: 12%;
+    }
+}
+
+@media (max-width:1199.98px) {
+    /* ----------------Slider----------------- */
+    .slider {
+        padding-right: 12px !important;
+    }
+
+    /* ----------------Banners---------------- */
+    .banners {
+        padding-left: 12px !important;
+    }
+    .banner {
+        height: 200px;
+    }
+    .banner-one {
+        padding-right: .25em !important;
+    }
+    .banner-two {
+        padding-left: .25em !important;
+    }
+
+    /* -----------------Links----------------- */
+    .links {
+        flex-wrap: wrap;
+    }
+    .links-item {
+        display: flex;
+        align-items: center;
+        width: 25%;
+        padding: 2.5% 3%;
+        flex: none;
+        border-bottom: 1px solid #f1f2f7;
+    }
+    .links-item img {
+        margin: 0;
+        position: static;
+        transform: none;
+    }
+    .links-item h5 {
+        padding: 0;
+    }
+    
+    /* ------------------Guide---------------- */
+    .guide-content {
+        left: 28%;
+    }
+}
+
+@media (max-width:991.98px) {
+    /* ----------------Carousel---------------- */
+    .carousel-title {
+        margin-bottom: 10px;
+    }
+    .carousel-text {
+        margin-bottom: 15px;
+    }
+
+    /* ------------------Guide---------------- */
+    .guide-content {
+        left: 20%;
+    }
+
+    /* -----------------Links----------------- */
+    .links-item {
+        width: 50%;
+    }
+}
+
+@media (max-width:767.98px) {
+    /* ----------------Carousel---------------- */
+    .carousel-content {
+        width: 100%;
+    }
+    .carousel-subtitle {
+        line-height: 1.1;
+    }
+    .carousel-title {
+        margin-bottom: 20px;
+    }
+    .carousel-text {
+        display: none;
+    }
+
+    /* -----------------Banners---------------- */
+    .banner-one {
+        padding-right: 12px !important;
+    }
+    .banner-two {
+        padding-left: 12px !important;
+    }
+
+    /* ------------------Charts---------------- */
+    .charts-item {
+        margin-bottom: 30px;
+    }
+    .charts-content {
+        width: 80%;
+    }
+    .charts-content h5 {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* ------------------Guide---------------- */
+    .guide-item {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:575.98px) {
+    /* ----------------Carousel---------------- */
+    .slider {
+        display: none;
+    }
+
+    /* -----------------Links----------------- */
+    .links-item {
+        display: block;
+        width: 100%;
+        border-right: none;
+    }
+    .links-item img {
+        margin: 0 auto 15px;
+    }
+    .links-item h5 {
+        display: block;
+        width: auto;
+    }
+
+    /* ------------------Guide---------------- */
+    .guide-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .guide-item img {
+        width: 100%;
+    }
+    .guide-content {
+        left: 10%;
+    }
+    
+}
